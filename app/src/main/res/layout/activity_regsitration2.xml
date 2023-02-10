@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".RegsitrationActivity2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Name"
+        android:inputType="textPersonName"
+        android:textSize="30sp"
+        android:id="@+id/etname"
+        android:autofillHints="no" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Address"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:inputType="textPostalAddress"
+        android:id="@+id/etaddress"
+        android:autofillHints="no" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Email"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+        android:inputType="textEmailAddress"
+        android:autofillHints="no"
+        android:id="@+id/etemail"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Phone"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:inputType="number"
+        android:maxLength="10"
+        android:autofillHints="no"
+        android:id="@+id/etphoneno"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Password"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:autofillHints="no"
+        android:id="@+id/etpassw1"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Confirm_Password"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:autofillHints="no"
+        android:id="@+id/etconfpass"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Gender"
+        android:textSize="30sp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/tvg"
+        />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:id="@+id/rdgender">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Male"
+            android:textSize="20sp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/rdbmale"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Female"
+            android:textSize="20sp"
+            android:id="@+id/rdbfemale"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/Other"
+            android:id="@+id/rdbother"/>
+
+        </RadioGroup>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Enteryourgender"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/edtenteryourg"
+        android:visibility="gone"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:textSize="20sp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/btnregi"/>
+
+
+
+
+</LinearLayout>
+</ScrollView>

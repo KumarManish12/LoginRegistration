@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">My App 1</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="Ok">OK</string>
+    <string name="Confirm_Password">Confirm Password</string>
+    <string name="Gender">Gender</string>
+    <string name="Name">Name</string>
+    <string name="Address">Address</string>
+    <string name="Email">Email</string>
+    <string name="Phone">Phone</string>
+    <string name="register">register</string>
+    <string name="Male">Male</string>
+    <string name="Female">Female</string>
+    <string name="Other">Other</string>
+    <string name="Enteryourgender">Enter your gender</string>
+    <string name="forgetpassword">\ forget password ?</string>
+
+
+</resources>
